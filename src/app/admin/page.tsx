@@ -1,4 +1,3 @@
-import Link from "next/link";
 
 export default function AdminHome() {
   return (
@@ -44,7 +43,7 @@ export default function AdminHome() {
               {[1, 2, 3].map((item) => (
                 <div key={item} className="flex items-center justify-between border-b border-white/5 pb-4 last:border-0 last:pb-0">
                   <div>
-                    <p className="text-sm font-medium">New Service Landing: "Blockchain Solutions"</p>
+                    <p className="text-sm font-medium">New Service Landing: &quot;Blockchain Solutions&quot;</p>
                     <p className="text-xs text-slate-500">Scheduled for March 12, 2026</p>
                   </div>
                   <button className="text-[10px] font-bold uppercase tracking-widest text-slate-400 hover:text-white transition-standard">

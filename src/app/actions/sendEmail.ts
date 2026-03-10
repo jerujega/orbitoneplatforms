@@ -47,7 +47,7 @@ export async function sendEmail(formData: FormData) {
         console.log("Email sent: " + info.response);
 
         return { success: true, data: info };
-    } catch (err: any) {
+    } catch (err: unknown) {
         console.error("Failed to send email:", err);
         return { error: "Failed to send the email. Please check your SMTP configuration." };
     }
