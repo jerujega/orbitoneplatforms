@@ -1,0 +1,102 @@
+﻿[2026-03-10 04:13:45] DEBUG Creating transport: nodemailer (8.0.2; +https://nodemailer.com/; SMTP/8.0.2[client:8.0.2])
+[2026-03-10 04:13:45] DEBUG [4yV5kCbVPc] Resolved smtp-relay.brevo.com as 1.179.116.1 [cache miss]
+[2026-03-10 04:13:45] INFO  [4yV5kCbVPc] Connection established to 1.179.116.1:587
+[2026-03-10 04:13:45] DEBUG [4yV5kCbVPc] S: 220 smtp-relay.brevo.com ESMTP Service Ready
+[2026-03-10 04:13:45] DEBUG [4yV5kCbVPc] C: EHLO [127.0.0.1]
+[2026-03-10 04:13:46] DEBUG [4yV5kCbVPc] S: 250-Hello [127.0.0.1]
+[2026-03-10 04:13:46] DEBUG [4yV5kCbVPc] S: 250-PIPELINING
+[2026-03-10 04:13:46] DEBUG [4yV5kCbVPc] S: 250-8BITMIME
+[2026-03-10 04:13:46] DEBUG [4yV5kCbVPc] S: 250-ENHANCEDSTATUSCODES
+[2026-03-10 04:13:46] DEBUG [4yV5kCbVPc] S: 250-CHUNKING
+[2026-03-10 04:13:46] DEBUG [4yV5kCbVPc] S: 250-STARTTLS
+[2026-03-10 04:13:46] DEBUG [4yV5kCbVPc] S: 250-AUTH LOGIN CRAM-MD5 PLAIN
+[2026-03-10 04:13:46] DEBUG [4yV5kCbVPc] S: 250 SIZE 20971520
+[2026-03-10 04:13:46] DEBUG [4yV5kCbVPc] C: STARTTLS
+[2026-03-10 04:13:46] DEBUG [4yV5kCbVPc] S: 220 2.0.0 Ready to start TLS
+[2026-03-10 04:13:46] INFO  [4yV5kCbVPc] Connection upgraded with STARTTLS
+[2026-03-10 04:13:46] DEBUG [4yV5kCbVPc] C: EHLO [127.0.0.1]
+[2026-03-10 04:13:46] DEBUG [4yV5kCbVPc] S: 250-Hello [127.0.0.1]
+[2026-03-10 04:13:46] DEBUG [4yV5kCbVPc] S: 250-PIPELINING
+[2026-03-10 04:13:46] DEBUG [4yV5kCbVPc] S: 250-8BITMIME
+[2026-03-10 04:13:46] DEBUG [4yV5kCbVPc] S: 250-ENHANCEDSTATUSCODES
+[2026-03-10 04:13:46] DEBUG [4yV5kCbVPc] S: 250-CHUNKING
+[2026-03-10 04:13:46] DEBUG [4yV5kCbVPc] S: 250-AUTH PLAIN LOGIN CRAM-MD5
+[2026-03-10 04:13:46] DEBUG [4yV5kCbVPc] S: 250 SIZE 20971520
+[2026-03-10 04:13:46] DEBUG [4yV5kCbVPc] SMTP handshake finished
+[2026-03-10 04:13:46] DEBUG [4yV5kCbVPc] C: AUTH PLAIN AGE0NzcxMDAwMUBzbXRwLWJyZXZvLmNvbQAvKiBzZWNyZXQgKi8=
+[2026-03-10 04:13:46] DEBUG [4yV5kCbVPc] S: 235 2.0.0 Authentication succeeded
+[2026-03-10 04:13:46] INFO  [4yV5kCbVPc] User "a47710001@smtp-brevo.com" authenticated
+[2026-03-10 04:13:46] DEBUG [4yV5kCbVPc] C: QUIT
+Connection successful: true
+[2026-03-10 04:13:46] DEBUG Sending mail using SMTP/8.0.2[client:8.0.2]
+[2026-03-10 04:13:46] DEBUG [XxzYvwwglc] Resolved smtp-relay.brevo.com as 1.179.116.1 [cache hit]
+[2026-03-10 04:13:46] DEBUG [4yV5kCbVPc] S: 221 2.0.0 Bye
+[2026-03-10 04:13:46] DEBUG [4yV5kCbVPc] Closing connection to the server using "end"
+[2026-03-10 04:13:46] INFO  [XxzYvwwglc] Connection established to 1.179.116.1:587
+[2026-03-10 04:13:46] DEBUG [XxzYvwwglc] S: 220 smtp-relay.brevo.com ESMTP Service Ready
+[2026-03-10 04:13:46] DEBUG [XxzYvwwglc] C: EHLO [127.0.0.1]
+[2026-03-10 04:13:46] DEBUG [XxzYvwwglc] S: 250-Hello [127.0.0.1]
+[2026-03-10 04:13:46] DEBUG [XxzYvwwglc] S: 250-PIPELINING
+[2026-03-10 04:13:46] DEBUG [XxzYvwwglc] S: 250-8BITMIME
+[2026-03-10 04:13:46] DEBUG [XxzYvwwglc] S: 250-ENHANCEDSTATUSCODES
+[2026-03-10 04:13:46] DEBUG [XxzYvwwglc] S: 250-CHUNKING
+[2026-03-10 04:13:46] DEBUG [XxzYvwwglc] S: 250-STARTTLS
+[2026-03-10 04:13:46] DEBUG [XxzYvwwglc] S: 250-AUTH LOGIN CRAM-MD5 PLAIN
+[2026-03-10 04:13:46] DEBUG [XxzYvwwglc] S: 250 SIZE 20971520
+[2026-03-10 04:13:46] DEBUG [XxzYvwwglc] C: STARTTLS
+[2026-03-10 04:13:46] DEBUG [XxzYvwwglc] S: 220 2.0.0 Ready to start TLS
+[2026-03-10 04:13:46] INFO  [XxzYvwwglc] Connection upgraded with STARTTLS
+[2026-03-10 04:13:46] DEBUG [XxzYvwwglc] C: EHLO [127.0.0.1]
+[2026-03-10 04:13:47] DEBUG [XxzYvwwglc] S: 250-Hello [127.0.0.1]
+[2026-03-10 04:13:47] DEBUG [XxzYvwwglc] S: 250-PIPELINING
+[2026-03-10 04:13:47] DEBUG [XxzYvwwglc] S: 250-8BITMIME
+[2026-03-10 04:13:47] DEBUG [XxzYvwwglc] S: 250-ENHANCEDSTATUSCODES
+[2026-03-10 04:13:47] DEBUG [XxzYvwwglc] S: 250-CHUNKING
+[2026-03-10 04:13:47] DEBUG [XxzYvwwglc] S: 250-AUTH PLAIN LOGIN CRAM-MD5
+[2026-03-10 04:13:47] DEBUG [XxzYvwwglc] S: 250 SIZE 20971520
+[2026-03-10 04:13:47] DEBUG [XxzYvwwglc] SMTP handshake finished
+[2026-03-10 04:13:47] DEBUG [XxzYvwwglc] C: AUTH PLAIN AGE0NzcxMDAwMUBzbXRwLWJyZXZvLmNvbQAvKiBzZWNyZXQgKi8=
+[2026-03-10 04:13:47] DEBUG [XxzYvwwglc] S: 235 2.0.0 Authentication succeeded
+[2026-03-10 04:13:47] INFO  [XxzYvwwglc] User "a47710001@smtp-brevo.com" authenticated
+[2026-03-10 04:13:47] INFO  Sending message <64669e4c-82ca-4ba6-64c5-89e0a2f0661f@orbitoneplatforms.com> to <admin@orbitoneplatforms.com>
+[2026-03-10 04:13:47] DEBUG [XxzYvwwglc] C: MAIL FROM:<admin@orbitoneplatforms.com>
+[2026-03-10 04:13:47] DEBUG [XxzYvwwglc] S: 250 2.0.0 Roger, accepting mail from <admin@orbitoneplatforms.com>
+[2026-03-10 04:13:47] DEBUG [XxzYvwwglc] C: RCPT TO:<admin@orbitoneplatforms.com>
+[2026-03-10 04:13:47] DEBUG [XxzYvwwglc] S: 250 2.0.0 I'll make sure <admin@orbitoneplatforms.com> gets this
+[2026-03-10 04:13:47] DEBUG [XxzYvwwglc] C: DATA
+[2026-03-10 04:13:47] DEBUG [XxzYvwwglc] S: 354 Go ahead. End your data with <CR><LF>.<CR><LF>
+[2026-03-10 04:13:47] DEBUG [XxzYvwwglc] From: OrbitOne Contact Form <admin@orbitoneplatforms.com>
+[2026-03-10 04:13:47] DEBUG [XxzYvwwglc] To: admin@orbitoneplatforms.com
+[2026-03-10 04:13:47] DEBUG [XxzYvwwglc] Subject: Test email
+[2026-03-10 04:13:47] DEBUG [XxzYvwwglc] Message-ID: <64669e4c-82ca-4ba6-64c5-89e0a2f0661f@orbitoneplatforms.com>
+[2026-03-10 04:13:47] DEBUG [XxzYvwwglc] Content-Transfer-Encoding: 7bit
+[2026-03-10 04:13:47] DEBUG [XxzYvwwglc] Date: Tue, 10 Mar 2026 04:13:46 +0000
+[2026-03-10 04:13:47] DEBUG [XxzYvwwglc] MIME-Version: 1.0
+[2026-03-10 04:13:47] DEBUG [XxzYvwwglc] Content-Type: text/plain; charset=utf-8
+[2026-03-10 04:13:47] DEBUG [XxzYvwwglc] 
+[2026-03-10 04:13:47] DEBUG [XxzYvwwglc] This is a test email
+[2026-03-10 04:13:47] DEBUG [XxzYvwwglc] .
+[2026-03-10 04:13:47] INFO  [XxzYvwwglc] <346 bytes encoded mime message (source size 343 bytes)>
+[2026-03-10 04:13:47] DEBUG [XxzYvwwglc] S: 250 2.0.0 OK: queued as <64669e4c-82ca-4ba6-64c5-89e0a2f0661f@orbitoneplatforms.com>
+[2026-03-10 04:13:47] DEBUG [XxzYvwwglc] Closing connection to the server using "end"
+Send result: {
+  accepted: [ 'admin@orbitoneplatforms.com' ],
+  rejected: [],
+  ehlo: [
+    'PIPELINING',
+    '8BITMIME',
+    'ENHANCEDSTATUSCODES',
+    'CHUNKING',
+    'AUTH PLAIN LOGIN CRAM-MD5',
+    'SIZE 20971520'
+  ],
+  envelopeTime: 262,
+  messageTime: 200,
+  messageSize: 346,
+  response: '250 2.0.0 OK: queued as <64669e4c-82ca-4ba6-64c5-89e0a2f0661f@orbitoneplatforms.com>',
+  envelope: {
+    from: 'admin@orbitoneplatforms.com',
+    to: [ 'admin@orbitoneplatforms.com' ]
+  },
+  messageId: '<64669e4c-82ca-4ba6-64c5-89e0a2f0661f@orbitoneplatforms.com>'
+}
