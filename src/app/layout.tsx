@@ -16,6 +16,9 @@ export const metadata: Metadata = {
   title: "Orbit One Platforms | Software Development",
   description:
     "Orbit One Platforms Software Pvt Ltd – custom software development, cloud-native platforms, and digital product engineering.",
+  icons: {
+    icon: "/logo.jpeg",
+  },
 };
 
 import { ThemeProvider } from "@/components/ThemeProvider";
